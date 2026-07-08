@@ -1,0 +1,6 @@
+~ diode_test.net
+voltage_source | V1 1 N001 N0 
+diode          | D1 N001 Vout 
+resistor       | R1 10000 Vout N0 
+gnd            | GND N0 
+.op
